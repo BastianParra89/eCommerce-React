@@ -74,3 +74,38 @@
   color: var(--primary-color);
   cursor: pointer;
 }
+
+.form-home {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+}
+
+::placeholder {
+  color: gainsboro;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+}
+
+
+input {
+  border: solid 0.5px gainsboro;
+  box-shadow: 0 3px 30px 1px rgb(0 0 0 / 9%);
+  height: 30px;
+  width: 25%;
+  margin: 20px;
+}
+
+
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  padding: 8px;
+  color: white;
+  font-weight: 100px;
+}

@@ -3,7 +3,7 @@ import './styles/footerScreen.css'
 const FooterScreen = () => {
   return (
     <footer className="footer">
-      <p className='footer__text'>&copy; Academlo 2022</p>
+      <p className='footer__text'>&copy; Bastian Parra</p>
       <ul className="redes">
         <li className="redes__items">
           <a href="" className="redes__links">
